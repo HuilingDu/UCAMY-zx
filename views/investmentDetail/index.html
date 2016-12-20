@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>投资详情</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/invest.css" />
+		<link rel="stylesheet" href="../font/iconfont.css" />
+    	<style>
+    		/* 重写组件的样式 */
+    		/* 进度条 */
+    		.zx .line-wrap {
+    			margin-top:0;
+    		}
+    		.zx .line-wrap .line-inner {
+    			border-radius:5px;
+    		}
+    		.zx .line-wrap .progress-bg {
+    			border-radius: 5px;
+    			background: #ffc90d;
+    		}
+    		/* 输入框 */
+    		.zx .input-number {
+    			width:100%;
+    		}
+    		.zx .input-number .add {
+    			left: inherit;
+    			right: 0;
+    		}
+    		.zx .input-number .less {
+    			left: 0;
+    			right: inherit;
+    		}
+    		.zx .input-number input {
+    			text-align: left;
+    		}
+    		.zx .input-number a, .zx .input-number a.disabled {
+    			background: #ededed;
+    		}
+    		.zx .input-number a:hover {
+    			background: #dedede;
+    		}
+    		.zx .adder-subtractor a.add, .zx .adder-subtractor a.less {
+    			width: 30px;
+    			height: 32px;
+    			font-size: 18px;
+    		}
+    		.zx .adder-subtractor a.less {
+    			border-right: 1px solid #ccc;
+    		}
+    		.zx .input-number .less:after, .zx .input-number .add:after {
+    			color:#666;
+    		}
+    		/* 表格 */
+    		.zx div.ucsmy-table.striped tbody tr:nth-of-type(even) {
+    			background-color:#f0f0f0;
+    		}
+    		.zx div.ucsmy-table.striped tbody tr:nth-of-type(odd) {
+    			background-color:#ffffff; 
+    		}
+    		.zx div.ucsmy-table thead > tr > th {
+    			padding:0;
+    		}
+    		.zx div.ucsmy-table tbody > tr > td {
+    			border-bottom:0;
+    			padding:0;
+    		}
+    		/* 悬浮提示框 */
+    		.zx .project-details .detail-time li i.layertips {
+    			color:#4a7fc1;
+    		}
+    	</style>
+	</head>
+	<body>
+	<div id="main"></div>
+    <script type="text/javascript" src="../libs/react.js" ></script>
+    <script type="text/javascript" src="../libs/react-dom.min.js" ></script>
+    <script type="text/javascript" src="../libs/u_event_hub.js"></script>
+	</body>
+</html>
